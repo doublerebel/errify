@@ -1,0 +1,32 @@
+{
+  "name": "errify",
+  "version": "1.0.0",
+  "description": "Basic node-style callback error helper for iced-coffee-script",
+  "main": "lib/errify.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/doublerebel/errify.git"
+  },
+  "keywords": [
+    "icedcoffeescript",
+    "iced-coffee-script",
+    "error",
+    "callback",
+    "coffee-script",
+    "coffeescript"
+  ],
+  "author": "doublerebel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/doublerebel/errify/issues"
+  },
+  "homepage": "https://github.com/doublerebel/errify#readme"
+}
