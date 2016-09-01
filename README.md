@@ -2,10 +2,17 @@
 
 Basic node-style callback error helper for iced-coffee-script
 
+[![Build Status][ci-master]][travis-ci]
+[![Coverage Status][coverage-master]][coveralls]
+[![Dependency Status][dependency]][david]
+[![devDependency Status][dev-dependency]][david]
+[![Downloads][downloads]][npm]
 
 Originally described by [@maxtaco](https://github.com/maxtaco) as the *"Error Short-Circuiter" pattern*:
 
 http://maxtaco.github.io/programming/2014/09/18/handling-errors-in-iced-coffee-script/
+
+[![NPM][npm-stats]][npm]
 
 ## Description
 
@@ -48,3 +55,15 @@ console.log contents
 ## License
 
 MIT
+
+  [ci-master]: https://img.shields.io/travis/doublerebel/errify/master.svg?style=flat-square
+  [travis-ci]: https://travis-ci.org/doublerebel/errify
+  [coverage-master]: https://img.shields.io/coveralls/doublerebel/errify/master.svg?style=flat-square
+  [coveralls]: https://coveralls.io/r/doublerebel/errify
+  [dependency]: https://img.shields.io/david/doublerebel/errify.svg?style=flat-square
+  [david]: https://david-dm.org/doublerebel/errify
+  [dev-dependency]: https://img.shields.io/david/dev/doublerebel/errify.svg?style=flat-square
+  [david-dev]: https://david-dm.org/doublerebel/errify#info=devDependencies
+  [downloads]: https://img.shields.io/npm/dm/errify.svg?style=flat-square
+  [npm]: https://www.npmjs.org/package/errify
+  [npm-stats]: https://nodei.co/npm/errify.png?downloads=true&downloadRank=true&stars=true
