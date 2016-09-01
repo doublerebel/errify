@@ -9,7 +9,8 @@
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "iced --bare --map -o lib/ -c src/",
+    "watch": "iced --watch --bare --map -o lib/ -c src/"
   },
   "repository": {
     "type": "git",
